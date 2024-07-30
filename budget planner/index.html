@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="unit">
+        <h3>Enter approximate monthly expenses</h3>
+        <div class="take">
+            <div class="form-group">
+                <label>Daily travel expense: </label>
+                <input type="number" id="trav">
+            </div>
+            <div class="form-group">
+                <label>Daily food expense: </label>
+                <input type="number" id="fo">
+            </div>
+            <div class="form-group">
+                <label>Educational fees (if any): </label>
+                <input type="number" id="edu">
+            </div>
+            <div class="form-group">
+                <label>Medical expense (if any): </label>
+                <input type="number" id="med">
+            </div>
+            <div class="form-group">
+                <label>Entertainment expense: </label>
+                <input type="number" id="ent">
+            </div>
+            <div class="form-group">
+                <label>Shopping expense: </label>
+                <input type="number" id="sho">
+            </div>
+            <div class="form-group">
+                <label>Unexpected expense: </label>
+                <input type="number" id="une">
+            </div>
+            <button id="calc">Calculate</button>
+        </div>
+        <h3 class="final">Your Monthly Budget Plan</h3>
+        <div class="give">
+            <p>Saved amount (pre-loans): <span id="savedAmount"></span></p>
+            <p>Expenditure amount: <span id="expenditureAmount"></span></p>
+            <p>Highest expense: <span id="highestExpense"></span></p>
+            <p>Minimum savings: <span id="minSavings"></span></p>
+            <p>Final savings: <span id="finalSavings"></span></p>
+            <p>Safe investment: <span id="safeInvestment"></span></p>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

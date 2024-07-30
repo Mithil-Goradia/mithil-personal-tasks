@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Planner</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Budget-ment</h1>
+    <div class="unit">
+        <h2>Plan and analyze your monthly budget</h2>
+        <h3>Enter credentials</h3>
+        <div class="log">
+            <div class="form-group">
+                <label>Username: </label>
+                <input type="text" id="usr">
+            </div>
+            <div class="form-group">
+                <label>Password: </label>
+                <input type="text">
+            </div>
+            <button class="go" id="confirm">Confirm</button>
+        </div>
+        <h3>.</h3>
+        <div class="info">
+            <div class="form-group">
+                <label>Monthly income: </label>
+                <input type="number" id="inc">
+            </div>
+            <div class="form-group">
+                <label>House rent: </label>
+                <input type="number" id="ren">
+            </div>
+            <div class="form-group">
+                <label>Minimum savings: </label>
+                <input type="number" id="sav" placeholder="20% of income Minimum">
+            </div>
+            <div class="form-group">
+                <label>Any existing loans: </label>
+                <input type="number" id="lao" placeholder="amount">
+            </div>
+        </div>
+        <button class="enter" onclick="enterButton()">Next</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #196EE8;
+    background: linear-gradient(to left, #196EE8, #0C2A59);
+}
+
+.unit {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 40px;
+    background-color: #0DADE2;
+    border-radius: 25px;
+    opacity: 0.9;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.take {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #08CDDF;
+    padding: 20px;
+    border-radius: 25.75px;
+}
+
+.give {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+    background-color: #aaeff6;
+    padding: 20px;
+    border-radius: 25.75px;
+    font-weight: bolder;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.final {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    width: 400px;
+    align-self: flex-end;
+    align-self: flex-end;
+    margin-top: 20px;
+    background-color: #196EE8;
+    height: 27px;
+    border:none;
+    border-radius: 25px;
+    color: #aaeff6;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #0c3773;
+    transition: 0.5s;
+}
+
+input {
+    height: 22px;
+    border: 2px solid #0c3773;
+    border-radius: 15px;
+}
