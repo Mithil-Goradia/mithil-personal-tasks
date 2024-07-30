@@ -9,7 +9,7 @@ It also alerts the player if less than 3 cards selected.
 ![image](https://github.com/user-attachments/assets/35390e39-dca8-4b73-a1a3-9df0eda83d7e)
 
 # Project 2 - Monthly Budget Planner : 
-This multifunctioning web-app can calculate the saved amount , loan amount, expenditures along with amount that can be safely invested just by tracking a few daily spends. Budget-ment can help you save and also efficiently save money.
+This multifunctioning web-app can calculate the saved amount , loan amount, expenditures along with amount that can be safely invested just by tracking a few daily spends. Budget-ment can help you save and also efficiently spend money.
 # login page :
 ![image](https://github.com/user-attachments/assets/463fb956-bcef-48ab-8aa1-fc1a0938f56d)
 # final tab :
