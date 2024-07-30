@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="unit">
+        <div class="up">
+            <h1>Temperature Convertor</h1>
+        </div>
+        <div class="in">
+            <label>Enter Temperature : </label><br>
+            <input type="number" id="temp"><br>
+        </div>
+
+        <div class="do">
+            <input type="radio" class="tic" id="cetk" name="conversion">
+            <label for="cetf">Celsius &#8594 Kelvin</label><br>
+    
+            <input type="radio" class="tic" id="ktce" name="conversion">
+            <label for="ftce">Kelvin &#8594 Celsius</label><br>
+
+            <input type="radio" class="tic" id="ftce" name="conversion">
+            <label for="ftce">Fahrenheit &#8594 Celsius</label><br>
+
+            <input type="radio" class="tic" id="cetf" name="conversion">
+            <label for="ftce">Celsius &#8594 Fahrenheit</label><br>
+
+        </div>
+
+        <div class="end">
+            <button onclick="convert()">Submit</button>
+            <button onclick="resetFields()">Reset</button>
+        </div>
+
+        <div class="dis">
+            <p id="show"></p>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

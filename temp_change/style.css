@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+}
+.unit {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 35px;
+    opacity: 0.75;
+}
+.up {
+    background-color: rgb(214, 214, 212);
+    margin-bottom: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.in {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+.in input{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(214, 214, 212);
+    border: none;
+}
+.do {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+button {
+    height: 40px;
+    width: 75px;
+    border-radius: 25px;
+    border: 3px solid green;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dis{
+    margin-top: 0px;
+    background-color: rgb(214, 214, 212);
+    height: 40px;
+    width: 80px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    border-radius: 20px;
+}
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: auto;
+}
+button:hover {
+    background-color: green;
+    border: none;
+    color: rgb(214, 214, 212);
+    transition: 0.4s;
+}
