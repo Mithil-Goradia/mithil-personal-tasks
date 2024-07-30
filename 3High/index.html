@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="rulings">
+        <h1>3 HIGH game</h1>
+        <h3>Rules :<br>You can pick 3 cards and the computer can pick three cards,<br>the one whose set's sum is highest wins</h3>
+    </div>
+    <div class="unit">
+        <div class="player">
+            <div class="tiles">
+                <div class="card">
+                    <img src="card1.png">
+                    <button class="add" id="c1">Add to pile</button>
+                </div>
+                <div class="card">
+                    <img src="card2.png">
+                    <button class="add" id="c2">Add to pile</button>
+                </div>
+                <div class="card">
+                    <img src="card3.png">
+                    <button class="add" id="c3">Add to pile</button>
+                </div>
+                <div class="card">
+                    <img src="card4.png">
+                    <button class="add" id="c4">Add to pile</button>
+                </div>
+                <div class="card">
+                    <img src="card5.png">
+                    <button class="add" id="c5">Add to pile</button>
+                </div>
+                <div class="card">
+                    <img src="card6.png">
+                    <button class="add" id="c6">Add to pile</button>
+                </div>
+            </div>
+        </div>
+        <div class="computer">
+            <div class="buts">
+                <button class="clr" id="go">GO</button>
+            </div>
+            <h4>Computer selects</h4>
+            <div class="comp">
+                <div class="pile2">
+                    <img src="card0.png">
+                </div>
+                <div class="pile2">
+                    <img src="card0.png">
+                </div>
+                <div class="pile2">
+                    <img src="card0.png">
+                </div>
+            </div>
+            <h4>Results</h4>
+            <div class="result">
+                <p id="ans"></p>
+            </div>
+            <div class="buts">
+                <button class="clr" id="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    background-image: url('back.png'); 
+    background-size: cover;
+    background-position: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.unit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+}
+
+.rulings {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    align-self: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    height: 200px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 5px green;
+}
+
+.player {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 480px;
+    height: 550px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.computer {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 550px;
+    align-self: center;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.result {
+    background-color: green;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 30px;
+    height: 60px;
+}
+
+.comp {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    border-radius: 15px;
+    height: 23px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+    box-shadow: 0 0 10px 5px green;
+}
+
+p {
+    text-align: center;
+}
+
+.clr {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .unit {
+        flex-direction: column; /* Stack the player and computer divs */
+        align-items: center; /* Center align the items */
+    }
+}
