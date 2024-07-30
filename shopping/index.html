@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&family=Playwrite+NL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="unit">
+        <div class="log">
+            <img src="logo.png" class="logo">
+            <div class="he"><h1>Coffee-ing</h1></div>
+            <button class="info" id="cont">&#9742</button>
+            <button class="info" id="scrollToBill">&#x1f6d2</button>
+        </div>
+        <div class="tab">
+            <div class="head">
+                <h3>We provide the same flavors in different modes.<br>Select mode of your coffee</h3>
+                <button class="mode" id="gr">Ground</button>
+                <button class="mode" id="wb">Whole-Beans</button>
+                <button class="mode" id="in">Instant</button>
+                <button class="mode" id="fi">Filter</button>
+            </div>
+            <div class="tiles">
+                <div class="coffee">
+                    <img src="image1.png" class="pics" alt="French Vanilla">
+                    <h4>French Vanilla</h4>
+                    <p>Fresh vanilla from the Lyon, France</p>
+                    <button class="add" id="fv">Add to cart</button>
+                    <h5>100mg || &#x20B9 450</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image2.png" class="pics" alt="American Hazelnut">
+                    <h4>American Hazelnut</h4>
+                    <p>Coffee touched with grounded hazelnut</p>
+                    <button class="add" id="ah">Add to cart</button>
+                    <h5>100mg || &#x20B9 400</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image3.png" class="pics" alt="Chennai Filter">
+                    <h4>Chennai Filter</h4>
+                    <p>Filter pressed coffee available in all modes</p>
+                    <button class="add" id="cf">Add to cart</button>
+                    <h5>100mg || &#x20B9 400</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image4.png" class="pics" alt="English Classic">
+                    <h4>English Classic</h4>
+                    <p>Processed in the Great Britain</p>
+                    <button class="add" id="ec">Add to cart</button>
+                    <h5>100mg || &#x20B9 350</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image5.png" class="pics" alt="Java Chip">
+                    <h4>Java Chip</h4>
+                    <p>Brewed fresh from the Java islands</p>
+                    <button class="add" id="jc">Add to cart</button>
+                    <h5>100mg || &#x20B9 450</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image6.png" class="pics" alt="Mumbai Local">
+                    <h4>Mumbai Local</h4>
+                    <p>The essence of chai mixed with tea</p>
+                    <button class="add" id="ml">Add to cart</button>
+                    <h5>100mg || &#x20B9 450</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image7.png" class="pics" alt="Black Forest">
+                    <h4>Black Forest</h4>
+                    <p>Originated in Munich homegrown pots</p>
+                    <button class="add" id="bf">Add to cart</button>
+                    <h5>100mg || &#x20B9 450</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image8.png" class="pics" alt="Arabic Palate">
+                    <h4>Arabic Palate</h4>
+                    <p>Coffee herbed with fresh arabic spices</p>
+                    <button class="add" id="ap">Add to cart</button>
+                    <h5>100mg || &#x20B9 450</h5>
+                </div>
+                <div class="coffee">
+                    <img src="image9.png" class="pics" alt="Hot Chocolate">
+                    <h4>Hot Chocolate</h4>
+                    <p>A simple nutty hot chocolate</p>
+                    <button class="add" id="hc">Add to cart</button>
+                    <h5>100mg || &#x20B9 450</h5>
+                </div>
+            </div>
+        <hr>
+        <div class="display" id="bill">
+            <h5>Bill Summary</h5>
+            <p id="amt" class="final">Amount = </p>
+            <p id="name" class="final">Coffee purchased = </p>
+            <p id="cost" class="final">Cost = </p>
+            <p id="types" class="final">Type = </p>
+            <button class="mode" id="upi">Pay via UPI</button>
+            <button class="mode" id="done">Done</button>
+        </div>
+        </div>
+    </div>
+
+    <img src="QR.png" id="upiImage" class="centerImage" style="display:none;">
+    <img src="contact.png" id="contactImage" class="centerImage" style="display: none;">
+    <script src="index.js"></script>
+</body>
+</html>

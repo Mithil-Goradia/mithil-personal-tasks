@@ -1,0 +1,207 @@
+body {
+    background-color: #ECB176;
+    margin: 0;
+    padding: 0;
+}
+
+.unit {
+    background-color: #ECB176;
+}
+
+.log {
+    height: 275px;
+    background-color: #A67B5B;
+    text-align: center;
+    background-image: url('image0.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.he {
+    width: 250px;
+    height: 65px;
+    background-color: #8B5E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    align-self: center;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+.logo {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #FED8B1;
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.tab {
+    background-color: #ECB176;
+    height: 600px;
+    margin-top: 0;
+}
+
+.head {
+    text-align: center;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.coffee:hover {
+    transition: 0.5s;
+    box-shadow: 0 6px 10px rgba(81, 55, 35, 0.7);
+}
+
+.mode {
+    background-color: #A67B5B;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 20px;
+    width: 150px;
+    border: 3px solid rgba(81, 55, 35, 0.7);
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.mode:hover {
+    background-color: #513723;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(81, 55, 35, 0.7);
+}
+
+.coffee {
+    flex: 0 1 calc(33.333% - 30px);
+    box-sizing: border-box;
+    width: 200px;
+    height: 310px;
+    background-color: #FED8B1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.coffee img {
+    height: 100px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.coffee h4 {
+    margin: 10px 0 5px 0;
+}
+
+.coffee p {
+    margin: 5px 0 10px 0;
+}
+
+.coffee button {
+    background-color: #A67B5B;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.coffee button:hover {
+    background-color: #8B5E3C;
+    height: 35px;
+    width: 110px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .coffee {
+        flex: 0 1 100%;
+    }
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+    margin: 15px;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    background-color: #FED8B1;
+    cursor: pointer;
+}
+
+.info:hover {
+    height: 60px;
+    width: 60px;
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+
+.display {
+    text-align: center;
+    height: 260px;
+    background-color: #f8cda3;
+    margin: auto;
+    width: 600px;
+    border: 5px solid #513723;
+    border-radius: 25px;
+}
+
+.centerImage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure it's on top */
+    width: 300px; /* Adjust the size as needed */
+    height: auto;
+    border: 5px solid #A67B5B;
+    border-radius: 25px;
+}
+
+hr {
+    color: #513723;
+}
+
+
+
+
+
+
+
