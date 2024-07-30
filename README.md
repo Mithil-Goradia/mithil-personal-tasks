@@ -1,5 +1,11 @@
 # mithil-personal-tasks
 [All projects are phone responsive]
+
+# LATEST PROJECT :
+I recently contributed in making the official DJS MUNsoc website under the guidance of my tech head. I used React and Tailwind css in this project.
+![image](https://github.com/user-attachments/assets/32bbf7b5-f0a8-4691-b49e-ed29b4e14fb6)
+can check out the official website -> https://djsmunsoc.vercel.app/DJMUN24
+
 # Project 1 - 3 High Game :
 It is a dynamic cards game where the player forms a card stack with any three cards of his/her choice. Then the computer also generates a random stack. The stack with highest sum wins the round.
 It also alerts the player if less than 3 cards selected.
