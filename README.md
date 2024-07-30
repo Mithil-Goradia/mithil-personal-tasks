@@ -1,5 +1,5 @@
 # mithil-personal-tasks
-
+[All projects are phone responsive]
 # Project 1 - 3 High Game :
 It is a dynamic cards game where the player forms a card stack with any three cards of his/her choice. Then the computer also generates a random stack. The stack with highest sum wins the round.
 It also alerts the player if less than 3 cards selected.
@@ -24,7 +24,13 @@ This website can be used as a selling portal for small scale coffee producers. T
 # payment (on clicking pay button ) :
 ![image](https://github.com/user-attachments/assets/29251487-1f7c-46a0-9eb2-09df0acc3d36)
 
+# Project 4 - To-Do List :
+Every morning after waking up, you can add the tasks to be done by the end of the day and as and when you complete it you can cut it out of the list. This web-app helps and individual to overcome procrastination and fix his/her routine. On pressing the clear button, the whole list vanishes and you can start fresh.
+![image](https://github.com/user-attachments/assets/b8a04020-c91e-47cc-b960-cb500607aac6)
 
+# Project 5 - Temperature Convertor : 
+This UI can convert temperature from any unit and convert into a selected unit.
+![image](https://github.com/user-attachments/assets/136c0021-20a6-403a-8f86-44521018583c)
 
 
 
