@@ -15,4 +15,16 @@ This multifunctioning web-app can calculate the saved amount , loan amount, expe
 # final tab :
 ![image](https://github.com/user-attachments/assets/02721b0c-3488-4739-b89c-b31c5b616ae6)
 
+# Project 3 - Coffee Shopping website : 
+This website can be used as a selling portal for small scale coffee producers. They can sell coffee of different types (ground, roast, filter etc) and of different flavors (french vanilla, hazzle etc). When the customer adds the units in his cart, he can see his cart by pressing the cart button or simply by just scrolling down, on adding the cart dynamically updates. There is also a paytm QR code of the owner which can be used for online payments and a contact button to contact.
+# home-page :
+![image](https://github.com/user-attachments/assets/04c5d961-9f8a-4283-8736-13ed486d81a9)
+# dynamic cart : 
+![image](https://github.com/user-attachments/assets/96d08bab-0c45-41f0-bb32-3a846b73100e)
+# payment (on clicking pay button ) :
+![image](https://github.com/user-attachments/assets/29251487-1f7c-46a0-9eb2-09df0acc3d36)
+
+
+
+
 
